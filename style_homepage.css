@@ -1,0 +1,18 @@
+
+#addressbox
+{
+    width:400px;
+    height:200px;
+    
+}
+#nav 
+{
+    list-style:none; 
+    margin-top: 50px;
+    
+}
+#nav li
+{
+    float:left ;
+    
+}
