@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Claire's Research Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style>
+
+
+    body
+{
+    font-family: arial;
+    
+}
+#nav-tabs{
+	padding: 50px;
+
+}
+#addressbox
+{
+    width:400px;
+    height:200px;
+    
+}
+#nav 
+{
+    list-style:none; 
+    margin-top: 50px;
+    
+}
+#nav li
+{
+    float:left ;
+    
+
+}
+.underline{
+  text-decoration: underline;
+}
+	</style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+            <a class="navbar-brand" href="#"><h2><span style="color:#669900;">Higgins Lab, Imperial College London</span></br> 
+       <span style="font-size:18px;">Tissue Engineering and Regenerative Medicine</span></h2></a>
+        
+    </div>
+    <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projectresearch.html">Lab members</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="o.html">Out&About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+    </nav>
+    </div>
+
+	<div class='container'>
+	</br>
+	</br>
+	</br>
+	</br>
+	</div>
+
+	<hr>
+
+	<nav class="nav nav-tabs" role="navigation">
+		<ul class="nav nav-tabs" style="padding-left: 100px">
+		  <li role="presentation" class="active"><a href="#2015">2015</a></li>
+		  <li role="presentation"><a href="#2014">2014</a></li>
+		  <li role="presentation"><a href="#2013">2013</a></li>
+		  <li role="presentation"><a href="#2012">2012</a></li>
+		  <li role="presentation"><a href="#e">2011</a></li>
+		  <li role="presentation"><a href="#f">2010</a></li>
+		  <li role="presentation"><a href="#2009">2009</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div id="2015">
+				<div class='underline'><h3>2015</h3></div>
+				<h4>Harel, S., Higgins, CA., Cerise, J., Dai, Z., Chen, JC., Clynes, R., Christiano, AM (2015) Pharmacologic Inhibition of JAK-STAT Signaling Promotes Hair Growth. Science Advances, Vol. 1, no. 9, e1500973. doi: 10.1126/sciadv.1500973<h4>
+	 
+				<h4>Gledhill, K, Guo, Z., Umegaki, N., Higgins, CA., Itoh, M., Christiano, AM (2015) Melanin Transfer in Human 3D Skin Equivalents Generated Exclusively from Induced Pluripotent Stem Cells, PLoS ONE, 10(8):e0136713. doi: 10.1371/journal.pone.0136713. eCollection 2015.</h4>
+ 		</div>
+		<div id="2014">
+			<div class='underline'><h3>2014</h3></div>
+			<h4>Xing, L*., Dai, Z*., Jabbari, A*., Cerise, J., Higgins, CA., Gong, W., de Jong, A., Harel, S., De Stefano, G., Rothman, L., Singh, P., Petukhova, L., Mackay-Wiggan, J., Christiano, AM., Clynes, R (2014) Cellular Identity of Cytotoxic T Lymphocytes in Alopecia Areata defines a therapeutic strategy focused on the IL-15 pathway and its downstream effector kinases. Nature Medicine, 20(9):1043-9. doi: 10.1038/nm.3645.
+			*These authors contributed equally to the study.<h/4>
+ 
+			<h4>Higgins, CA*., Petukhova, L*., Harel, S., Ho, YY., Drill, E., Shapiro, L., Wajid, M., Christiano, AM., (2014) Identification of FGF5 as a crucial regulator of hair length in humans. PNAS, 111(29):10648-10653.
+			*These authors contributed equally to the study.</h4>
+			 
+			<h4>Furniss, M*., Higgins, CA*., Martinez-Mir, A., Horev, L., Petukhova, L., Stanimirović, A., Miljković, J., Zlotogorski, A., Christiano, AM., (2014) Identification of distinct mutations in AAGAB in families with Type 1 Punctate Palmoplantar Keratoderma. Journal of Investigative Dermatology, 134(6):1749-1752.
+			*These authors contributed equally to the study.</h4>
+
+		</div>
+
+		<div id="2013">
+			<div class='underline'><h3>2013</h3></div>
+			<h4>Higgins, CA., Chen, JC., Cerise, JE., Jahoda, CAB., Christiano, AM. (2013) Microenvironmental reprogramming by three-dimensional culture enables dermal papilla cells to induce de novo human hair follicle growth. PNAS, 110(49):19679-19688 (Cover article).</h4>
+ 
+			<h4>Itoh, M., Umegaki, N., Guo, Z., Liu, L., Higgins, CA., Christiano, AM. (2013) Generation of 3D Skin Equivalents Fully Reconstituted from Human induced Pluripotent Stem Cells (iPSCs). PLoS ONE, 8(10):e77673.</h4>
+			 
+			<h4>Bhogal, RK., Mouser, PE., Higgins, CA., Turner, GA. (2013)  Protease Activity, Localisation & Inhibition In The Human Hair Follicle. International Journal of Cosmetic Science, DOI: 10.1111/ics.12091.</h4>
+		</div>
+
+		<div id="2012">
+			<div class='underline'><h3>2012</h3></div>
+			<h4>Hill, RP., Gledhill, K., Gardner, A, Higgins, CA., Crawford, H., Lawrence C., Hutchison, CJ., Owens, WA., Kara, B., James, SE., Jahoda, CAB. (2012) Generation and Characterization of Multipotent Stem Cells from Established Dermal Cultures. PLoS ONE, 7(11):e50742.</h4>
+ 
+			<h4>Higgins, CA., Itoh, M., Inoue, K., Richardson, GD., Jahoda, CAB., Christiano, AM. (2012) Reprogramming of human hair follicle dermal papilla cells into induced pluripotent stem cells. Journal of Investigative Dermatology, 132:1725-1727.</h4>
+		</div>
+
+		<div id="e">
+			<div class='underline'><h3>2011</h3></div>
+			<h4>Higgins, CA., Westgate, GE., Jahoda, CAB. (2011) Modulation in proteolytic activity is identified as a hallmark of exogen by transcriptional profiling of hair follicles. Journal of Investigative Dermatology, 131:2349-2537.</h4>
+		</div>
+
+		<div id="f">
+			<div class='underline'><h3>2010</h3></div>
+			<h4>Higgins, CA., Richardson, GD., Ferdinando, D., Westgate, GE., Jahoda, CAB. (2010) Modelling the hair follicle dermal papilla using spheroid cell cultures. Experimental Dermatology, 19:546-548.</h4>
+		</div>
+
+		<div id="2009">
+			<div class='underline'><h3>2009</h3></div>
+			<h4>Higgins, CA., Westgate, GE., Jahoda, CAB. (2009) From Telogen to Exogen: Mechanisms underlying formation and subsequent loss of the hair club fibre. Journal of Investigative Dermatology, 129:2100–2108.</h4>
+ 
+			<h4>Higgins, CA., Richardson, GD., Westgate, GE., Jahoda, CAB. (2009) Exogen involves gradual release of the hair club fibre in the vibrissa follicle model. Experimental Dermatology, 18:793-795.</h4>
+
+		</div>
+	</div>
+
+	<div class="container" style="background-color:black;">
+    <div id='social-buttons'>
+    
+        <div class="navbar"> 
+            <ul id="nav">
+            <h3 style="color:white; margin-left:0px; padding:none;">CONTACT US  <h3>
+            
+            <a style="color:white; text-decoration:none;"href="#"><li style="margin-left:120px;"><i class="fa fa-envelope fa-3x"></i></li></a>
+            <a style="color:white; text-decoration:none;"href="#"><li style="margin-left:120px;"><i class="fa fa-facebook fa-3x"></i></li></a>
+            <a style="color:white; text-decoration:none; "href="#"><li style="margin-left:120px;"> <i class="fa fa-twitter fa-3x"></i></li></a>
+            <a style="color:white; text-decoration:none; "href="#"><li style="margin-left:120px;"><i class="fa fa-home fa-3x"></i></li></a>
+            
+            <div><li id="addressbox;" style="color:white;"><address>RSM 3.09<br>Royal School of Mines<br>Imperial College London<br>South Kensington Campus<br>London<br>SW7 2AZ UK</address></li></div>
+        </div>
+
+    
+    </div>
+    </div>
+
+	 <script src="https://code.jquery.com/jquery.js"></script>
+	 <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+
+</body>
+</html>
