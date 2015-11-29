@@ -1,92 +1,12 @@
 .navbar-fixed-top {
-    min-height: 120px;
+    min-height: 100px;
 }
 
 .navbar-fixed-top .navbar-collapse {
-    max-height: 120px;
+    max-height: 100px;
 }
 
 @media (min-width: 768px) {
     .navbar-fixed-top .navbar-collapse {
-        max-height: 120px;
-}
-    body
-{
-    font-family: arial;
-    
-}
-#left
-{
-    width: 400px;
-    height:400px;
-    background:url('https://i.gyazo.com/90a73d5830b58bc668e9fa3f20aa5bf5.jpg');
-    background-size: 400px 400px;
-
-}
-#right
-{
-    width:700px;
-    height:400px;
-    float: right;
-    font-size: 18px;
-    
-}
-.homeimage {
-min-height : 400px;
-background-image : url( 'https://i.gyazo.com/9cb531def3ad0d804274d1552a656051.jpg' );
-background-size : cover;
-background-attachment : fixed ;
-position: relative;
-}
-
-#title {
-    position: absolute;
-    bottom: 0;
-    background-color: #1e1e15;
-    opacity: 0.5;
-    color: white;
-    display: inline-block;
-    width: 1140px;
-
-
-    
-}
-#caption {
-    background-color: #000000;
-    opacity: 0.5;
-    color: white;
-    display:inline-block; 
-    width: 400px;
-    
-}
-.About{
-  background-color: #0d0d0d;
-  width:100%;
-  height:800px;
-  text-indent: 50px;
-  padding-top: 50px;
-  color: #ffffff;
-}
-.underline{
-  text-decoration: underline;
-}
-#addressbox
-{
-    width:400px;
-    height:200px;
-    
-}
-#nav 
-{
-    list-style:none; 
-    margin-top: 40px;
-    
-}
-#nav li
-{
-    float:left ;
-    
-}
-h2 {
-  vertical-align: text-top;
+        max-height: 100px;
 }
