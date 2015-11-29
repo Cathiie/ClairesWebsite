@@ -1,12 +1,12 @@
 .navbar-fixed-top {
-    min-height: 100px;
+    min-height: 120px;
 }
 
 .navbar-fixed-top .navbar-collapse {
-    max-height: 100px;
+    max-height: 120px;
 }
 
 @media (min-width: 768px) {
     .navbar-fixed-top .navbar-collapse {
-        max-height: 50px;
+        max-height: 120px;
 }
