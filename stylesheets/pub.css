@@ -1,0 +1,24 @@
+            body
+            {
+            font-family: arial;
+            }
+            #nav-tabs{
+            padding: 50px;
+            }
+            #addressbox
+            {
+            width:400px;
+            height:200px;
+            }
+            #nav 
+            {
+            list-style:none; 
+            margin-top: 50px;
+            }
+            #nav li
+            {
+            float:left ;
+            }
+            .underline{
+            text-decoration: underline;
+            }
