@@ -1,240 +1,208 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-
-  <title>Higgins Lab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="stylesheets/bootstrap.css">
-  <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="stylesheet" href="stylesheets/style_homepage.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-  <script type="text/javascript">
-
-
-    var slideimages = new Array() // create new array to preload images
-    slideimages[0] = new Image() // create new instance of image object
-    slideimages[0].src = "https://i.gyazo.com/773ca6e60df2c3e19639f196621a1eda.png" 
-    slideimages[1] = new Image()
-    slideimages[1].src = "https://i.gyazo.com/4be1a4cb6ab2eb43b39ecdd630431998.png"
-    slideimages[2] = new Image()
-    slideimages[2].src = "https://i.gyazo.com/0d1f44e66dd406dbce1c6baf5683cb5e.png"
-    slideimages[3] = new Image()
-    slideimages[3].src = "https://i.gyazo.com/b8617a09a76a7da6ee1e88e2090c38a1.jpg"
-    slideimages[4] = new Image()
-    slideimages[4].src = "https://i.gyazo.com/d776596024797c849ca4ffaad39c7902.jpg"
-
-
-  </script>
-
-
-  <style>
-    body
-{
-    font-family: arial;
-    background:url('https://i.gyazo.com/d776596024797c849ca4ffaad39c7902.jpg');
-    background-size: 1500px 1800px;
-    
-}
-
-#right
-{
-    width:700px;
-    height:400px;
-    float: right;
-    font-size: 18px;
-    
-}
-.homeimage {
-min-height : 400px;
-background-image : url( 'https://i.gyazo.com/9cb531def3ad0d804274d1552a656051.jpg' );
-background-size : cover;
-background-attachment : fixed ;
-position: relative;
-}
-
-#title {
-    position: absolute;
-    bottom: 0;
-    background-color: #1e1e15;
-    opacity: 0.5;
-    color: white;
-    display: inline-block;
-    width: 1140px;
-
-
-    
-}
-#caption {
-    background-color: #000000;
-    opacity: 0.5;
-    color: white;
-    display:inline-block; 
-    width: 400px;
-    
-}
-.About{
-  background-color: #0d0d0d;
-  width:100%;
-  height:800px;
-  text-indent: 50px;
-  padding-top: 50px;
-  color: #ffffff;
-}
-.underline{
-  text-decoration: underline;
-}
-#addressbox
-{
-    width:400px;
-    height:200px;
-    
-}
-#nav 
-{
-    list-style:none; 
-    margin-top: 40px;
-    
-}
-#nav li
-{
-    float:left ;
-    
-}
-
-
-
-  </style>
-
-</head>
-
-<body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-            <a class="navbar-brand" href="#"><h2><span style="color:#669900;">Higgins Lab</span><span style="font-size:18px"> - ICL</span></h2></a>
-      </div>
-
-    <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projectresearch.html">Lab members</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="o.html">Out&About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </div>
-    </div>
-  </nav>
-
-  <div class='container'>
-  <div class='homeimage'>
-    <div>
-        <img src="human.gif" id="slide" width="1140" height="600" />
-
+    <head>
+        <title>Higgins Lab</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="stylesheets/bootstrap.css">
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="stylesheet" href="stylesheets/style_homepage.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script type="text/javascript">
-
-              //variable that will increment through the images
-              var step=0
-
-              function slideit(){
-               //if browser does not support the image object, exit.
-               if (!document.images)
-                return
-               document.getElementById('slide').src = slideimages[step].src
-               if (step<4)
-                step++
-               else
-                step=0
-               //call function "slideit()" every 5 seconds
-               setTimeout("slideit()",5000)
-              }
-
-              slideit()
-
+            var slideimages = new Array() // create new array to preload images
+            slideimages[0] = new Image() // create new instance of image object
+            slideimages[0].src = "https://i.gyazo.com/773ca6e60df2c3e19639f196621a1eda.png" 
+            slideimages[1] = new Image()
+            slideimages[1].src = "https://i.gyazo.com/4be1a4cb6ab2eb43b39ecdd630431998.png"
+            slideimages[2] = new Image()
+            slideimages[2].src = "https://i.gyazo.com/0d1f44e66dd406dbce1c6baf5683cb5e.png"
+            slideimages[3] = new Image()
+            slideimages[3].src = "https://i.gyazo.com/b8617a09a76a7da6ee1e88e2090c38a1.jpg"
+            slideimages[4] = new Image()
+            slideimages[4].src = "https://i.gyazo.com/d776596024797c849ca4ffaad39c7902.jpg"
+            
+            
         </script>
-    </div>
-
-  <div class = "About">
-    <div class='underline'><h2>About the lab</h2></div>
-    <div class="container">
-      <div class='row'>
-        
-          <div class='col-sm-4'>
-            <img class='img-responsive'>
-            <img src="https://i.gyazo.com/90a73d5830b58bc668e9fa3f20aa5bf5.jpg" style="width: 350px; height:350px;">
-          </div>
-
-          <div class='col-sm-8' style="padding-right:100px" >
-             <p>Welcome to the Higgins Lab website.  Claire Higgins received both her BSc, and PhD from the University of Durham, and carried out her postdoctoral research in the Department of Dermatology at Columbia University in New York.  She joined the faculty in the Department of Bioengineering at Imperial College in 2014, when she was appointed as a lecturer.</p> 
-              <p>The main focus of the research group is to understand mechanisms of tissue development, and regeneration, both in normal conditions, and in response to disease or injury.  The hair follicle is used as a model, as it is an accessible and elegant system to study organ regeneration.  Research into developmental, and regenerative processes means we can try and recreate them in a lab setting, and exploit the inherent properties of interacting cells to engineer new tissues and structures. </p>
-              <p>Hair follicles contain specialised cells located in a small mesenchymal compartment at the base of the follicle, termed the dermal papilla.  Interaction between the dermal papilla and the bulge (the epithelial stem cell compartment of the follicle), drives the hair follicle cycle.  Work in the lab encompasses understanding how these cells acquire their specialised ability to instruct hair growth, in addition to elucidating the role of these cells in response to traumatic injury, and their behaviour during skin repair.  More recently, we have been focusing on the role of the hair follicle in promoting wound closure.
-              For opportunities within the lab, please email Dr Higgins</p>
-          </div>
-      </div>
-    </div>
-          
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <form role='form' class='form-inline'>
-            <div class="form-group">
-          <label for="email">Sign up for our newsletter!</label>
-          <input type="text" class='form-control' name="email" placeholder="Enter your email" >
-          <button type="submit" class='btn btn-success'>Send</button>
-          </div>
-          </form>
-    </div>
-
-
-    </div>
-
-  <div class="container" style="background-color:black; width:1140px">
-    <div id='social-buttons'>
-    
-        <div class="navbar"> 
-            <ul id="nav">
-            <h3 style="color:white; margin-left:0px; padding:none;">CONTACT US</h3>
-            
-            <a style="color:white; text-decoration:none;"href="#"><li style="margin-left:120px;"><i class="fa fa-envelope fa-3x"></i></li></a>
-            <a style="color:white; text-decoration:none;"href="#"><li style="margin-left:120px;"><i class="fa fa-facebook fa-3x"></i></li></a>
-            <a style="color:white; text-decoration:none; "href="#"><li style="margin-left:120px;"> <i class="fa fa-twitter fa-3x"></i></li></a>
-            <a style="color:white; text-decoration:none; "href="#"><li style="margin-left:120px;"><i class="fa fa-home fa-3x"></i></li></a>
-            
-            <div><li id="addressbox;" style="color:white;"><address>RSM 3.09<br>Royal School of Mines<br>Imperial College London<br>South Kensington Campus<br>London<br>SW7 2AZ UK</address></li></div>
+        <style>
+            body
+            {
+            font-family: arial;
+            background:url('https://i.gyazo.com/54ab7eba4f1b4ac2923ec2e8ae010482.png');
+            background-size: 1500px 1800px;
+            }
+            #right
+            {
+            width:700px;
+            height:400px;
+            float: right;
+            font-size: 18px;
+            }
+            .homeimage {
+            min-height : 400px;
+            background-image : url( 'https://i.gyazo.com/9cb531def3ad0d804274d1552a656051.jpg' );
+            background-size : cover;
+            background-attachment : fixed ;
+            position: relative;
+            }
+            #title {
+            position: absolute;
+            bottom: 0;
+            background-color: #1e1e15;
+            opacity: 0.5;
+            color: white;
+            display: inline-block;
+            width: 1140px;
+            }
+            #caption {
+            background-color: #000000;
+            opacity: 0.5;
+            color: white;
+            display:inline-block; 
+            width: 400px;
+            }
+            .About{
+            background-color: #0d0d0d;
+            width:100%;
+            height:800px;
+            text-indent: 50px;
+            padding-top: 50px;
+            color: #ffffff;
+            }
+            .underline{
+            text-decoration: underline;
+            }
+            #addressbox
+            {
+            width:400px;
+            height:200px;
+            }
+            #nav 
+            {
+            list-style:none; 
+            margin-top: 40px;
+            }
+            #nav li
+            {
+            float:left ;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <h2><span style="color:#669900;">Higgins Lab</span><span style="font-size:18px"> - ICL</span></h2>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projectresearch.html">Lab members</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="o.html">Out&About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='container'>
+            <div class='homeimage'>
+                <div>
+                    <img src="human.gif" id="slide" width="1140" height="600" />
+                    <script type="text/javascript">
+                        //variable that will increment through the images
+                        var step=0
+                        
+                        function slideit(){
+                         //if browser does not support the image object, exit.
+                         if (!document.images)
+                          return
+                         document.getElementById('slide').src = slideimages[step].src
+                         if (step<4)
+                          step++
+                         else
+                          step=0
+                         //call function "slideit()" every 5 seconds
+                         setTimeout("slideit()",5000)
+                        }
+                        
+                        slideit()
+                        
+                    </script>
+                </div>
+                <div class = "About">
+                    <div class='underline'>
+                        <h2>About the lab</h2>
+                    </div>
+                    <div class="container">
+                        <div class='row'>
+                            <div class='col-sm-4'>
+                                <img class='img-responsive'>
+                                <img src="https://i.gyazo.com/90a73d5830b58bc668e9fa3f20aa5bf5.jpg" style="width: 350px; height:350px;">
+                            </div>
+                            <div class='col-sm-8' style="padding-right:100px" >
+                                <p>Welcome to the Higgins Lab website.  Claire Higgins received both her BSc, and PhD from the University of Durham, and carried out her postdoctoral research in the Department of Dermatology at Columbia University in New York.  She joined the faculty in the Department of Bioengineering at Imperial College in 2014, when she was appointed as a lecturer.</p>
+                                <p>The main focus of the research group is to understand mechanisms of tissue development, and regeneration, both in normal conditions, and in response to disease or injury.  The hair follicle is used as a model, as it is an accessible and elegant system to study organ regeneration.  Research into developmental, and regenerative processes means we can try and recreate them in a lab setting, and exploit the inherent properties of interacting cells to engineer new tissues and structures. </p>
+                                <p>Hair follicles contain specialised cells located in a small mesenchymal compartment at the base of the follicle, termed the dermal papilla.  Interaction between the dermal papilla and the bulge (the epithelial stem cell compartment of the follicle), drives the hair follicle cycle.  Work in the lab encompasses understanding how these cells acquire their specialised ability to instruct hair growth, in addition to elucidating the role of these cells in response to traumatic injury, and their behaviour during skin repair.  More recently, we have been focusing on the role of the hair follicle in promoting wound closure.
+                                    For opportunities within the lab, please email Dr Higgins
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <form role='form' class='form-inline'>
+                        <div class="form-group">
+                            <label for="email">Sign up for our newsletter!</label>
+                            <input type="text" class='form-control' name="email" placeholder="Enter your email" >
+                            <button type="submit" class='btn btn-success'>Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container" style="background-color:black; width:1140px">
+                <div id='social-buttons'>
+                    <div class="navbar">
+                        <ul id="nav">
+                        <h3 style="color:white; margin-left:0px; padding:none;">CONTACT US</h3>
+                        <a style="color:white; text-decoration:none;"href="#">
+                            <li style="margin-left:120px;"><i class="fa fa-envelope fa-3x"></i></li>
+                        </a>
+                        <a style="color:white; text-decoration:none;"href="#">
+                            <li style="margin-left:120px;"><i class="fa fa-facebook fa-3x"></i></li>
+                        </a>
+                        <a style="color:white; text-decoration:none; "href="#">
+                            <li style="margin-left:120px;"> <i class="fa fa-twitter fa-3x"></i></li>
+                        </a>
+                        <a style="color:white; text-decoration:none; "href="#">
+                            <li style="margin-left:120px;"><i class="fa fa-home fa-3x"></i></li>
+                        </a>
+                        <div>
+                            <li id="addressbox;" style="color:white;">
+                                <address>RSM 3.09<br>Royal School of Mines<br>Imperial College London<br>South Kensington Campus<br>London<br>SW7 2AZ UK</address>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    
-    </div>
-    </div>
- </div>
-
-</div>
-
-
-
-
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
-
-</body>
+        </div>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+    </body>
 </html>
